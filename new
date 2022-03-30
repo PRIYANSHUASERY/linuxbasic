@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Please enter first value: "
+read -r a
+echo "Please enter second value: "
+read -r b
+echo "a+b value is $(($a+$b))"
+echo "a-b value is $(($a-$b))"
+echo "a*b value is $(($a*$b))"
+echo "a/b value is $(($a/$b))"
+echo "Script completed successfully" 
